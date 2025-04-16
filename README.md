@@ -1,34 +1,36 @@
 # Smart India Hackathon Workshop
-# Date: 18:05:2024
-## Register Number:212223110033
-## Name:OVIYA P
+# Date: 16/04/2025
+## Register Number:212224220051
+## Name:V.B.Laksha
 
 ## Problem Title 
 
 
-E-Waste Facility Locator
+SpeedSnap – Network Health Logger
 ## Problem Description
-Website that tells you the location of the nearest e-waste collection and recycling facility. Offers educational pop-ups on the harmful components of your e-waste and their effects on the environment and human health if not disposed correctly. There could be an option to input the model of your old device and earn credit points relative to the amount of precious metals recovered from the device if disposed correctly.
+An app that automatically logs internet speed at regular intervals, analyzes the data, and generates comprehensive performance reports. Users can view trends over time, detect connectivity issues, and receive alerts when speeds drop below expected levels. The app also supports exporting reports and allows users to share their internet quality status with service providers for better troubleshooting.
 ## Problem Creater's Organization
-Ministry of Environment
+Ministry of Electronics and Information Technology
+
 
 ## Idea
-1.Nearest E-Waste Facility Locator:
-Use Geocoding AI to find nearby e-waste facilities based on the user's current location.
-Implement image recognition to categorize e-waste when users upload photos, suggesting the appropriate recycling facility.
+1. Automated Internet Speed Logging:
+Records internet speed (download, upload, latency) at set intervals using background services.
 
-2.Virtual Assistant:
-Offer a virtual assistant that provides guidance on proper e-waste disposal methods and data wiping techniques for devices with sensitive information.
+2. Report Generation and Sharing:
+Summarizes performance metrics in downloadable reports. Includes charts, trends, and comparisons.
 
-3.Educational Pop-ups:
-Display educational pop-ups to raise awareness about the harmful effects of e-waste on the environment and human health.
+3. Real-Time Alerts & Notifications:
+Sends alerts when the speed falls below a certain threshold or when there's a network outage.
 
-4.Reward Points System:
-Introduce a reward points system where users earn points for each e-waste disposal, encouraging participation in recycling programs.
+4. Data Visualization Dashboard:
+Provides users with a clean, interactive dashboard showing historical data, average speeds, peak times, etc.
 
-5.Real-time Analytics Dashboard:
-Provide e-waste facilities with a dashboard showcasing real-time analytics and insights, including recycling rates and energy savings, to help users understand their impact on the environment.
+5. Privacy-First User Data Storage:
+Ensures secure storage of speed logs with strict adherence to data privacy policies.
 
+6. Virtual Support Assistant:
+Offers solutions for speed issues, basic troubleshooting steps, and connectivity tips via AI chat.
 
 
 
@@ -37,29 +39,38 @@ Provide e-waste facilities with a dashboard showcasing real-time analytics and i
 
 
 ## Proposed Solution / Architecture Diagram
-![alt text](image-1.png)
+![Screenshot 2025-04-16 084041](https://github.com/user-attachments/assets/fdebfb52-26ed-441a-8625-7a424c22c114)
+
 
 ## Use Cases
-![alt text](10-2.jpg)
+![Screenshot 2025-04-16 083218](https://github.com/user-attachments/assets/77b592b6-f6e6-4cea-9f6e-581bc9c61cfc)
+
 
 ## Technology Stack
-React.js
+React Native
 
-Node.js 
+Node.js
 
 PostgreSQL
 
-Google maps
+Chart.js
 
-Firebox Authenticator
+Firebase Authenticator
 
-Git , Postman or Insomnia
+Google Charts
+
+Git, Postman or Insomnia
 
 ## Dependencies
 
-Mapping service- 10 days
+Background Speed Test API Integration – 10 days
 
-Data collection- 10 days
+Report Generation & Data Visualization – 7 days
 
-budget- rs.50,000
+User Authentication & Data Sync – 8 days
+
+Estimated Budget
+₹50,000
+
+
 
